@@ -1,0 +1,41 @@
+html {
+    height: 100%;
+    display: grid;
+  }
+  
+  body {
+    background-color: #0b1301;
+    margin: auto;
+  }
+  
+  #menu input, #menu button, body {
+    font-family: cursive;
+   
+  }
+  
+  #board {
+    display: inline-block;
+    background-image: url("https://images2.alphacoders.com/457/457705.jpg");
+    padding: 10px;
+    border: 1px solid #f4f1ef;
+    border-radius: 15px;
+    max-width: 500px;
+  }
+  
+  #display {
+    margin-left: 0px;
+    float: right;
+  }
+  
+  #menu {
+    font-size: 10pt;
+    float: left;
+    margin-right: 0px;
+    box-sizing: border-box;
+    margin-top:10px;
+  }
+  
+  #menu p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
